@@ -26,3 +26,36 @@
 
 # What is Shebang Line?
 ![alt text](../Resources/L2/L2_Shebang.jpg "Simple Commands")
+
+
+
+# Linux permissions
+```ls -la```
+
+![alt text](../Resources/L2/L2_Permissions.jpg "Simple Commands")
+
+|Code|Functionality
+|:---:|:---:|
+|r | From English read, indicates the read permission on this file or directory.|
+|w | From English write, indicates the write permission on this file or directory.|
+|x | From English execution, indicates the execution permission on this file or directory.
+|-|The dash indicates the absence of that permission.|
+
+As you will see, there are 10 characters that we see in this combination
+
+|Code|Functionality
+|:---:|:---:|
+|The first indicates the type. |If it is a file it will show us a dash and if it is a directory it will show us a d.|
+|The following 3 correspond to the permissions granted to the owner of this file|
+|Positions 5, 6 and 7 indicate the permissions that the group has.|
+|The last 3 characters tell us what permissions others have.||
+
+
+![alt text](../Resources/L2/L2_PermissionsExample.jpg "Simple Commands")
+
+|Code|Functionality|
+|:---:|:---:|
+|d | This is a directory|
+|rwx | The owner has read, write and execute permissions (7)|
+|r-x | The group has read and execute permissions, but NOT write (5)|
+|r-x | Others have permission to read and execute, but NOT write (5)|
