@@ -3,7 +3,7 @@
 ![alt text](../Resources/L3/L3_Files.jpg "Simple Commands")
 
 ## 1. To display all the files-use ls
-> ```ls [option] file_name```
+ ```ls [option] file_name```
 
 |Functionallity|Code|
 |:---:|:---:|
@@ -21,8 +21,8 @@
 
 ```mkdir [options][directory_name]```
 
-Creates a folder called my_directory
->```mkdir my_directory```
+Creates a folder called my_directory:  
+```mkdir my_directory```
 
 Removes the folder called my_directory
 >```rmdir [option] [directory_name]```

@@ -34,7 +34,7 @@
 ## 3. Find a word in a text file
 To search for a word in a text file, simply type the command:
 
-```grep file search```
+```grep search file```
 
 > ```search```: the word you are looking for 
 ```file```: the file in which you are looking for the word
